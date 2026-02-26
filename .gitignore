@@ -1,0 +1,126 @@
+# =============================
+# Python
+# =============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+pip-wheel-metadata/
+
+# =============================
+# Virtual Environments
+# =============================
+env/
+venv/
+.venv/
+ENV/
+.env/
+env.bak/
+venv.bak/
+
+# =============================
+# Jupyter Notebook
+# =============================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =============================
+# Environment Variables
+# =============================
+.env
+.env.*
+!.env.example
+secrets.yml
+secrets.yaml
+
+# =============================
+# Data Files (large / raw)
+# =============================
+# 追蹤小型範例資料集時，可將特定檔案 force-add: git add -f data/sample.csv
+*.parquet
+*.feather
+*.arrow
+*.hdf5
+*.h5
+*.zarr/
+
+# 若資料集較大，取消下面的註解：
+# *.csv
+# *.tsv
+# *.xlsx
+# *.xls
+# *.json
+# *.jsonl
+
+# =============================
+# Model Files
+# =============================
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.pb
+*.tflite
+models/
+checkpoints/
+
+# =============================
+# MLflow / Experiment Tracking
+# =============================
+mlruns/
+mlartifacts/
+.mlflow/
+wandb/
+lightning_logs/
+outputs/
+runs/
+
+# =============================
+# DVC (Data Version Control)
+# =============================
+/tmp
+.dvc/tmp
+.dvc/cache
+
+# =============================
+# IDEs
+# =============================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =============================
+# macOS
+# =============================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# =============================
+# Logs & Profiling
+# =============================
+*.log
+logs/
+*.prof
+*.lprof
+
+# =============================
+# Coverage & Testing
+# =============================
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
